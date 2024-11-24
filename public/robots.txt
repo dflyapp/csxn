@@ -2,4 +2,4 @@ User-Agent: *
 Allow: /
 Disallow: /private/
 
-Sitemap: https://chisoxetnghiem.com/sitemap.xml
+Sitemap: https://chisoxetnghiem.com/sitemap-index.xml
