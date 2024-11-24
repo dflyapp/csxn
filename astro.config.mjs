@@ -1,9 +1,9 @@
-// @ts-check
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://chisoxetnghiem.com",
   i18n: {
     defaultLocale: "vi",
     locales: ["vi"],
@@ -11,20 +11,21 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "Chi So Xet Nghiem",
-      social: {
-        github: "https://github.com/withastro/starlight",
+      logo: {
+        light: "./src/assets/logo-light.svg",
+        dark: "./src/assets/logo-dark.svg",
       },
+      //   social: {
+      //     github: "https://github.com/withastro/starlight",
+      //   },
       sidebar: [
         {
-          label: "Guides",
-          items: [
-            // Each item here is one entry in the navigation menu.
-            { label: "Example Guide", slug: "guides/example" },
-          ],
+          label: "Cơ bản",
+          autogenerate: { directory: "co-ban" },
         },
         {
-          label: "Reference",
-          autogenerate: { directory: "reference" },
+          label: "Giới thiệu",
+          autogenerate: { directory: "gioi-thieu" },
         },
       ],
     }),
