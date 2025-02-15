@@ -1,6 +1,8 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 
+import sentry from "@sentry/astro";
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://chisoxetnghiem.com",
@@ -35,6 +37,13 @@ export default defineConfig({
           autogenerate: { directory: "gioi-thieu" },
         },
       ],
+    }),
+    sentry({
+      dsn: "https://96e1d62bcf7a84d0ea456ca9b7f75e28@o4508776494792704.ingest.us.sentry.io/4508823805362176",
+      sourceMapsUploadOptions: {
+        project: "csxn",
+        authToken: process.env.SENTRY_AUTH_TOKEN,
+      },
     }),
   ],
 });
