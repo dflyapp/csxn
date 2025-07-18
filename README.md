@@ -1,41 +1,31 @@
-# Starlight Starter Kit: Basics
+# ChiSoXetNghiem.com
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
-```
-npm create astro@latest -- --template starlight
-```
+A Vietnamese medical reference website for blood test parameters and medical indicators. This non-profit project helps users quickly look up and understand common blood test results.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/withastro/starlight&create_from_path=examples/basics)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwithastro%2Fstarlight%2Ftree%2Fmain%2Fexamples%2Fbasics&project-name=my-starlight-docs&repository-name=my-starlight-docs)
+## ✨ Features
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- **Medical Reference Documentation**: Comprehensive blood test parameter explanations in Vietnamese
+- **Fast & SEO-Friendly**: Built with Astro + Starlight for optimal performance
+- **Error Monitoring**: Integrated Sentry for reliability
+- **Mobile-Friendly**: Responsive design for all devices
+- **Non-Profit**: Free medical information for Vietnamese users
 
-## 🚀 Project Structure
-
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+## 📁 Content Structure
 
 ```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   ├── docs/
-│   │   └── config.ts
-│   └── env.d.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
+src/content/docs/
+├── co-ban/          # Basic blood test parameters
+│   ├── rbc.md       # Red Blood Cells
+│   ├── hbg.md       # Hemoglobin
+│   └── mch.md       # Mean Corpuscular Hemoglobin
+├── gioi-thieu/      # Introduction & references
+│   └── nguon-tham-khao.md
+└── index.mdx        # Homepage
 ```
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
-
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
-
-Static assets, like favicons, can be placed in the `public/` directory.
+Medical documentation is stored in `src/content/docs/` as Markdown files, automatically generating routes based on file structure.
 
 ## 🧞 Commands
 
@@ -50,6 +40,12 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+## 📚 Learn More
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+- [Starlight Documentation](https://starlight.astro.build/)
+- [Astro Documentation](https://docs.astro.build)
+- [Project Website](https://chisoxetnghiem.com)
+
+---
+
+Made with ❤️ from HCM

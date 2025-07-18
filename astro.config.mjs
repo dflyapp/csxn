@@ -37,6 +37,9 @@ export default defineConfig({
           autogenerate: { directory: "gioi-thieu" },
         },
       ],
+      components: {
+        Footer: "./src/components/overrides/Footer.astro",
+      },
     }),
     sentry({
       dsn: "https://96e1d62bcf7a84d0ea456ca9b7f75e28@o4508776494792704.ingest.us.sentry.io/4508823805362176",
