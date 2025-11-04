@@ -4,11 +4,13 @@ Tài liệu này đề xuất các chủ đề nội dung nên phát triển cho
 
 ## Hiện Trạng
 
-### Đã hoàn thành (4 bài viết):
+### Đã hoàn thành (6 bài viết):
 - ✅ **RBC** - Hồng cầu (Red Blood Cell)
 - ✅ **HBG** - Hemoglobin (Huyết sắc tố)
 - ✅ **MCH** - Mean Corpuscular Hemoglobin (Hàm lượng hemoglobin trung bình)
 - ✅ **HCT** - Hematocrit (Tỷ lệ thể tích hồng cầu)
+- ✅ **MCV** - Mean Corpuscular Volume (Thể tích trung bình hồng cầu)
+- ✅ **WBC** - White Blood Cell Count (Tổng số bạch cầu)
 
 ---
 
@@ -24,7 +26,7 @@ Tài liệu này đề xuất các chủ đề nội dung nên phát triển cho
   - Liên quan chặt chẽ với RBC và HBG
   - Quan trọng: Đánh giá mức độ thiếu máu hoặc đa hồng cầu
 
-- [ ] **MCV** - Mean Corpuscular Volume (Thể tích trung bình hồng cầu)
+- [x] **MCV** - Mean Corpuscular Volume (Thể tích trung bình hồng cầu)
   - Đo kích thước hồng cầu
   - Phân loại thiếu máu: nhỏ/bình thường/lớn hồng cầu
   - Kết hợp MCH để chẩn đoán chính xác
@@ -40,7 +42,7 @@ Tài liệu này đề xuất các chủ đề nội dung nên phát triển cho
   - Chỉ số tiên lượng bệnh tim mạch
 
 #### B. Bạch cầu (White Blood Cells)
-- [ ] **WBC** - White Blood Cell Count (Tổng số bạch cầu)
+- [x] **WBC** - White Blood Cell Count (Tổng số bạch cầu)
   - Chỉ số miễn dịch quan trọng nhất
   - Phát hiện nhiễm trùng, viêm, ung thư máu
   - Rất phổ biến, mọi người cần biết
@@ -244,10 +246,10 @@ Tài liệu này đề xuất các chủ đề nội dung nên phát triển cho
 **Mục tiêu**: Hoàn thành nhóm xét nghiệm phổ biến nhất
 
 Thứ tự ưu tiên:
-- [ ] **WBC** - Bạch cầu tổng số (quan trọng nhất, mọi người cần)
+- [x] **WBC** - Bạch cầu tổng số (quan trọng nhất, mọi người cần)
 - [ ] **PLT** - Tiểu cầu (sốt xuất huyết phổ biến VN)
 - [x] **HCT** - Hematocrit (bổ sung cho RBC, HBG)
-- [ ] **MCV** - Thể tích hồng cầu (phân loại thiếu máu)
+- [x] **MCV** - Thể tích hồng cầu (phân loại thiếu máu)
 - [ ] **NEU** - Bạch cầu trung tính (nhiễm trùng)
 - [ ] **LYM** - Lympho (virus, COVID)
 - [ ] **RDW** - Độ phân bố hồng cầu
@@ -351,14 +353,16 @@ Mỗi bài viết hoàn thành cần đảm bảo:
 
 ## TIẾN ĐỘ TỔNG QUAN
 
-**Cập nhật lần cuối**: 29/10/2025
-**Số bài viết hoàn thành**: 4/47 (8.5%)
+**Cập nhật lần cuối**: 04/11/2025
+**Số bài viết hoàn thành**: 6/47 (12.8%)
 **Mục tiêu Giai đoạn 1**: 13/47 (27.7%)
 
 ### Phân loại theo nhóm:
-- **Nhóm 1 - Công thức máu**: 1/13 hoàn thành (7.7%)
+- **Nhóm 1 - Công thức máu**: 3/13 hoàn thành (23.1%)
   - [x] HCT
-  - [ ] 12 chỉ số còn lại
+  - [x] MCV
+  - [x] WBC
+  - [ ] 10 chỉ số còn lại
 - **Nhóm 2 - Chuyển hóa & Nội tiết**: 0/21 (0%)
 - **Nhóm 3 - Chuyên sâu**: 0/8 (0%)
 - **Nhóm 4 - Đặc biệt**: 0/5 (0%)
