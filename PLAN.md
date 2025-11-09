@@ -4,7 +4,7 @@ Tài liệu này đề xuất các chủ đề nội dung nên phát triển cho
 
 ## Hiện Trạng
 
-### Đã hoàn thành (7 bài viết):
+### Đã hoàn thành (10 bài viết):
 - ✅ **RBC** - Hồng cầu (Red Blood Cell)
 - ✅ **HBG** - Hemoglobin (Huyết sắc tố)
 - ✅ **MCH** - Mean Corpuscular Hemoglobin (Hàm lượng hemoglobin trung bình)
@@ -12,6 +12,9 @@ Tài liệu này đề xuất các chủ đề nội dung nên phát triển cho
 - ✅ **MCV** - Mean Corpuscular Volume (Thể tích trung bình hồng cầu)
 - ✅ **WBC** - White Blood Cell Count (Tổng số bạch cầu)
 - ✅ **PLT** - Platelet Count (Số lượng tiểu cầu)
+- ✅ **NEU** - Neutrophil (Bạch cầu trung tính)
+- ✅ **LYM** - Lymphocyte (Bạch cầu lympho)
+- ✅ **RDW** - Red Cell Distribution Width (Độ phân bố hồng cầu)
 
 ---
 
@@ -37,7 +40,7 @@ Tài liệu này đề xuất các chủ đề nội dung nên phát triển cho
   - Bổ sung cho MCH và MCV
   - Ít biến động hơn MCH
 
-- [ ] **RDW** - Red Cell Distribution Width (Độ phân bố hồng cầu)
+- [x] **RDW** - Red Cell Distribution Width (Độ phân bố hồng cầu)
   - Đánh giá sự đồng đều kích thước hồng cầu
   - Phân biệt các loại thiếu máu
   - Chỉ số tiên lượng bệnh tim mạch
@@ -48,12 +51,12 @@ Tài liệu này đề xuất các chủ đề nội dung nên phát triển cho
   - Phát hiện nhiễm trùng, viêm, ung thư máu
   - Rất phổ biến, mọi người cần biết
 
-- [ ] **NEU (Neutrophil)** - Bạch cầu trung tính
+- [x] **NEU (Neutrophil)** - Bạch cầu trung tính
   - Chiếm 50-70% tổng số bạch cầu
   - Chống nhiễm trùng vi khuẩn
   - Quan trọng: Đánh giá nhiễm trùng cấp
 
-- [ ] **LYM (Lymphocyte)** - Bạch cầu lympho
+- [x] **LYM (Lymphocyte)** - Bạch cầu lympho
   - Chiếm 20-40% bạch cầu
   - Miễn dịch đặc hiệu (virus, ung thư)
   - Liên quan HIV, COVID-19
@@ -251,9 +254,9 @@ Thứ tự ưu tiên:
 - [x] **PLT** - Tiểu cầu (sốt xuất huyết phổ biến VN)
 - [x] **HCT** - Hematocrit (bổ sung cho RBC, HBG)
 - [x] **MCV** - Thể tích hồng cầu (phân loại thiếu máu)
-- [ ] **NEU** - Bạch cầu trung tính (nhiễm trùng)
-- [ ] **LYM** - Lympho (virus, COVID)
-- [ ] **RDW** - Độ phân bố hồng cầu
+- [x] **NEU** - Bạch cầu trung tính (nhiễm trùng)
+- [x] **LYM** - Lympho (virus, COVID)
+- [x] **RDW** - Độ phân bố hồng cầu
 - [ ] **MCHC** - Nồng độ hemoglobin
 - [ ] **MPV** - Thể tích tiểu cầu
 - [ ] **MONO, EOS, BASO** - Các bạch cầu còn lại
@@ -354,16 +357,19 @@ Mỗi bài viết hoàn thành cần đảm bảo:
 
 ## TIẾN ĐỘ TỔNG QUAN
 
-**Cập nhật lần cuối**: 04/11/2025
-**Số bài viết hoàn thành**: 7/47 (14.9%)
+**Cập nhật lần cuối**: 09/11/2025
+**Số bài viết hoàn thành**: 10/47 (21.3%)
 **Mục tiêu Giai đoạn 1**: 13/47 (27.7%)
 
 ### Phân loại theo nhóm:
-- **Nhóm 1 - Công thức máu**: 4/13 hoàn thành (30.8%)
+- **Nhóm 1 - Công thức máu**: 7/13 hoàn thành (53.8%)
   - [x] HCT
   - [x] MCV
   - [x] WBC
-  - [ ] 10 chỉ số còn lại
+  - [x] NEU
+  - [x] LYM
+  - [x] RDW
+  - [ ] 7 chỉ số còn lại
 - **Nhóm 2 - Chuyển hóa & Nội tiết**: 0/21 (0%)
 - **Nhóm 3 - Chuyên sâu**: 0/8 (0%)
 - **Nhóm 4 - Đặc biệt**: 0/5 (0%)
